@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Grid layout</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">header</div>
+            <div class="nav">nav</div>
+
+            <div class="main">
+                <div class="section-1">
+                    <div class="block_1">
+                        <img src="./images/pc.png" alt="pc" width="90px" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum molestias
+                            quis quaerat tempore esse ratione, saepe culpa neque reprehenderit
+                            laborum.
+                        </p>
+                    </div>
+                    <div class="block_2">
+                        <img src="./images/js.png" alt="pc" width="90px" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum molestias
+                            quis quaerat tempore esse ratione, saepe culpa neque reprehenderit
+                            laborum.
+                        </p>
+                    </div>
+                    <div class="block_3">
+                        <img src="./images/css.png" alt="pc" width="90px" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum molestias
+                            quis quaerat tempore esse ratione, saepe culpa neque reprehenderit
+                            laborum.
+                        </p>
+                    </div>
+                    <div class="block_4">
+                        <img src="./images/vue.png" alt="pc" width="90px" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum molestias
+                            quis quaerat tempore esse ratione, saepe culpa neque reprehenderit
+                            laborum.
+                        </p>
+                    </div>
+                    <div class="block_5">
+                        <img src="./images/ts.png" alt="pc" width="90px" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum molestias
+                            quis quaerat tempore esse ratione, saepe culpa neque reprehenderit
+                            laborum.
+                        </p>
+                    </div>
+                    <div class="block_6">
+                        <img src="./images/angular.png" alt="pc" width="90px" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum molestias
+                            quis quaerat tempore esse ratione, saepe culpa neque reprehenderit
+                            laborum.
+                        </p>
+                    </div>
+                    <div class="block_7">
+                        <img src="./images/react.png" alt="pc" width="90px" />
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum molestias
+                            quis quaerat tempore esse ratione, saepe culpa neque reprehenderit
+                            laborum.
+                        </p>
+                    </div>
+                </div>
+
+                <form action="">
+                    <h5>Обратная связь</h5>
+
+                    <div class="input_wrapper usr_name">
+                        <input type="text" name="name" required />
+                        <label for="name" id="name">Имя</label>
+                    </div>
+
+                    <div class="input_wrapper usr_sec_name">
+                        <input type="text" name="surname" required />
+                        <label for="surname" id="second_name">Фамилия</label>
+                    </div>
+
+                    <div class="input_wrapper usr_mail">
+                        <input type="email" name="email" required />
+                        <label for="email" id="mail">Ваша почта</label>
+                    </div>
+
+                    <div class="input_wrapper usr_tel">
+                        <input type="tel" name="phone" id="telephone" required />
+                        <label for="phone">Ваш телефон</label>
+                    </div>
+
+                    <div class="input_wrapper about_usr">
+                        <input type="text" name="about" id="text_about_user" />
+                        <label for="about">Расскажите о себе</label>
+                    </div>
+
+                    <div class="input_wrapper button">
+                        <input
+                            onclick="formHandler()"
+                            type="button"
+                            name="send"
+                            id="form_button"
+                            value="Отправить"
+                        />
+                    </div>
+                </form>
+            </div>
+
+            <div class="sidebar">sidebar</div>
+            <div class="ads">ads</div>
+
+            <div class="footer">
+                <div class="info-block">
+                    <div class="info-block-content number_1">
+                        <h6>About Us</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+                            praesentium. Nam repellendus minima adipisci officia sunt amet
+                            consequatur dolores nulla pariatur explicabo nemo illo repudiandae quia
+                            nostrum, quos quo odit.
+                        </p>
+                        <div class="img-block-container">
+                            <div class="img-block">
+                                <img src="./images/youtube.webp" width="25px" alt="" />
+                            </div>
+                            <div class="img-block">
+                                <img src="./images/youtube.webp" width="25px" alt="" />
+                            </div>
+                            <div class="img-block">
+                                <img src="./images/youtube.webp" width="25px" alt="" />
+                            </div>
+                            <div class="img-block">
+                                <img src="./images/youtube.webp" width="25px" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-block-content number_2">
+                        <h6>Quick Links</h6>
+                        <ul>
+                            <li>About</li>
+                            <li>FAQ</li>
+                            <li>Privacy Policy</li>
+                            <li>Help</li>
+                            <li>Term</li>
+                            <li>Contacts</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-block-content number_3">
+                        <h6>Shop</h6>
+                        <ul>
+                            <li>Men</li>
+                            <li>Women</li>
+                            <li>Children</li>
+                            <li>Shoes</li>
+                            <li>Clothing</li>
+                            <li>Accessories</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-block-content number_4">
+                        <h6>Contact Us</h6>
+                        <ul>
+                            <li>
+                                <img src="./images/location.svg" alt="location" width="11px" />MIREA
+                            </li>
+                            <li>
+                                <img src="./images/phone.svg" alt="phone" width="11px" />Phone
+                                number
+                            </li>
+                            <li>
+                                <img
+                                    src="./images/email.svg"
+                                    alt="email"
+                                    width="11px"
+                                />example@mail.ru
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="copyright-block">
+                    <p>Babaskin Maxim - student MIREA Copyright All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const allInputs = document.querySelectorAll('input');
+            for (let item of allInputs) {
+                item.addEventListener('input', () =>
+                    item.value.length
+                        ? (item.nextElementSibling.style.top = '-25px')
+                        : (item.nextElementSibling.style.top = '0px'),
+                );
+            }
+
+            function formHandler() {
+                window.scrollTo(0, 0);
+                location.reload();
+                alert('Информация отправлена');
+            }
+        </script>
+    </body>
+</html>
